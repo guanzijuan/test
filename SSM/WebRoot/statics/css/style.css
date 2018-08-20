@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+*{
+	margin: 0px auto;
+	text-align: center;	
+}
+table,tr,td{
+	border:1px solid white;
+}
+table{
+	width: 800px;
+}
+.font1{
+	font-size: xx-large;
+	font-weight: bold;
+}
+tr:nth-of-type(even){ 
+	
+background-color:green;
+	}
+tr:nth-child(3){
+	background-color:blue;
+}
+tr:nth-child(1){
+	background-color:white;
+}
+tr:nth-child(2){
+	background-color:white;
+}
+.hk tr{
+	background-color:yellow;
+}
