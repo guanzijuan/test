@@ -16,11 +16,19 @@ import service.FlightsService;
 
 @Controller
 public class FlightController {
+//	添加日志
 	private Logger logger = Logger.getLogger(FlightController.class);
 	
 	@Resource
 	private FlightsService flightsService;
-	
+	/**
+	 * 查询信息
+	 * @param model
+	 * @param flightDate
+	 * @param takeoff
+	 * @param landing
+	 * @return
+	 */
 	@RequestMapping(value="/flight")
 	public String allFlights(Model model,String flightDate,String takeoff,String landing){
 		List<Flights> flightsList=null;
