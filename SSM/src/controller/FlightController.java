@@ -22,7 +22,7 @@ public class FlightController {
 	@Resource
 	private FlightsService flightsService;
 	/**
-	 * 查询信息123
+	 * 查询信息123成都四川省
 	 * @param model
 	 * @param flightDate
 	 * @param takeoff
